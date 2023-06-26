@@ -8,7 +8,7 @@ steps:
 - task: Maven@3
   displayName: Maven app/pom.xml'
   inputs:
-    mavenPomFile: 'pom.xml'
+    mavenPomFile: '/home/ubuntu/agent/_work/4/s/app/pom.xml'
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     codeCoverageToolOption: 'JaCoCo'
